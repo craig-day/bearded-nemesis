@@ -47,6 +47,7 @@ end
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
+  gem 'soft_deletion', git: 'git@github.com:grosser/soft_deletion.git'
   gem 'rails-assets-angular'
   gem 'rails-assets-leaflet'
 end
